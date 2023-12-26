@@ -1,0 +1,11 @@
+.navbar{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(6, 13, 40),rgb(22, 45, 97));
+  
+}
+.navbar-brand{
+color: rgb(35, 87, 68);
+}
+.nav-link{
+    color: rgb(57, 129, 103);
+
+}

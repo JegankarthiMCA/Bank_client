@@ -22,7 +22,7 @@ const Login = () => {
     const userLog = (e) => {
         // alert("cknjkcn")
         e.preventDefault()
-        axios.post('http://localhost:2022/api/user/login', {
+        axios.post('https://bank-server-jk.onrender.com/api/user/login', {
             Email: email,
             Password: password
         }, [])

@@ -18,7 +18,7 @@ export default function Signin() {
 
   const handleCreate = async () => {
     try {
-      axios.post("http://localhost:2022/api/user/createAccount", {
+      axios.post("https://bank-server-jk.onrender.com/api/user/createAccount", {
         Name: name,
         Email: email,
         Password: password,
@@ -34,7 +34,7 @@ export default function Signin() {
         }
         )
         .catch(err => console.warn(err))
-      //  const result=await fetch('http://localhost:2022/api/user/createAccount',{
+      //  const result=await fetch('https://bank-server-jk.onrender.com/api/user/createAccount',{
       //     method:"post",
       //     body:JSON.stringify({
       //         Name:name,

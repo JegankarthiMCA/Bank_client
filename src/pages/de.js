@@ -19,7 +19,7 @@ const Deposit = () => {
         if(token){
          axios({
              method:"get",
-             url:"http://localhost:2022/api/user/profile",
+             url:"https://bank-server-jk.onrender.com/api/user/profile",
              headers:{
                  accept: 'application/json',
                  token:token
@@ -47,7 +47,7 @@ const Deposit = () => {
             
             axios({
                 method:"put",
-                url:"http://localhost:2022/api/user/update",
+                url:"https://bank-server-jk.onrender.com/api/user/update",
                 data: {
                    Balance: result
                 },

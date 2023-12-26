@@ -21,7 +21,7 @@ const Withdraw = () => {
     if (token) {
       axios({
         method: "get",
-        url: "http://localhost:2022/api/user/profile",
+        url: "https://bank-server-jk.onrender.com/api/user/profile",
         headers: {
           accept: "application/json",
           token: token,

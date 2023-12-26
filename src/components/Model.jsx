@@ -16,7 +16,7 @@ const Model = ({setModel,data,result,token,setAmount,action}) => {
     if(data==bin){
       axios({
         method:"put",
-        url:"http://localhost:2022/api/user/update",
+        url:"https://bank-server-jk.onrender.com/api/user/update",
         data: {
             Balance: result
         },

@@ -14,7 +14,7 @@ export default function Name() {
             setToken(localStorage.getItem('UserToken'))
         axios({
           method:"get",
-          url:"http://localhost:2022/api/user/profile",
+          url:"https://bank-server-jk.onrender.com/api/user/profile",
           headers:{
               accept: 'application/json',
               token:UserToken,

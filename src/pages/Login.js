@@ -52,7 +52,7 @@ const Login = () => {
             })
     }
     const acc = () => {
-        navigate('/register')
+        navigate('/signin')
     }
     return (
         <div className="limiter">

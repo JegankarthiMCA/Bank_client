@@ -1,0 +1,52 @@
+.model{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.418);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    position: fixed;
+    top: 0;left: 0;
+}
+
+.modelContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.modelwrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.closeCon{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 32px;
+}
+
+.close{
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.modelInp{
+    margin: 15px;
+    background-color: #99ccffab;
+    width: 90%;
+    padding: 10px;
+    border-radius: 80px;
+    box-shadow: 0 0 5px 5px rgb(37 36 33 / 57%);
+}

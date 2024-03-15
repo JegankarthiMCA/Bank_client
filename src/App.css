@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-image: url("./images/36630.jpg");
+  background-size: cover;
+}
+
+#bank {
+  padding-top: 25px;
+}

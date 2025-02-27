@@ -1,0 +1,122 @@
+/* Page Layout */
+.limiter {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  
+  .container-login100 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wrap-login100 {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Input fields styling */
+  .wrap-input100 {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .input100 {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .input100:focus {
+    border-color: #007bff;
+  }
+  
+  .focus-input100 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  
+  .symbol-input100 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  /* Buttons */
+  .login100-form-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login100-form-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Hover effect for the buttons */
+  .container-login100-form-btn button {
+    background-color: #28a745;
+    margin-top: 10px;
+  }
+  
+  .container-login100-form-btn button:hover {
+    background-color: #218838;
+  }
+  
+  /* Toast Container */
+  .Toastify__toast {
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  
+  .Toastify__toast--success {
+    background-color: #28a745;
+  }
+  
+  .Toastify__toast--error {
+    background-color: #dc3545;
+  }
+  
+  /* Responsive */
+  @media (max-width: 767px) {
+    .wrap-login100 {
+      padding: 20px;
+      max-width: 350px;
+    }
+    .login-title {
+      font-size: 20px;
+    }
+  }
+  

@@ -24,7 +24,7 @@ const Deposit = () => {
     if (token) {
       axios({
         method: "get",
-        url: "https://bank-client-owcv.onrender.com/api/user/profile",
+        url: "https://bank-server-yibm.onrender.com/api/user/profile",
         headers: {
           accept: "application/json",
           token: token,
